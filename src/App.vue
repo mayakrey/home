@@ -5,13 +5,13 @@
 
 <template>
   <header>
-    <div class="wrapper">
-      <Navigation />
-    </div>
+    <Navigation />
   </header>
-  <div class="content">
+  <div class="wrapper">
     <Home />
-    <RouterView />
+    <div class="content">
+      <RouterView />
+    </div>
   </div>
 </template>
 
@@ -20,14 +20,20 @@
     max-height: 100vh;
   }
 
-  .content {
+  .wrapper {
     margin-top: 2rem;
   }
 
   @media (min-width: 1024px) {
-    .content {
+    .wrapper {
       margin-top: 5rem;
       padding: 0 10rem;
+    }
+
+    .content {
+      margin-top: 3rem;
+      font-size: 1rem;
+      font-weight: 100;
     }
   }
 </style>
