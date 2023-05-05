@@ -1,0 +1,26 @@
+:root {
+  --background: #102e4c;
+  --font-primary: #36e8be;
+  --link-primary: #da6ca9;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--font-primary);
+  background: var(--background);
+  line-height: 1.6;
+  font-family: Montserrat, sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
