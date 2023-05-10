@@ -1,5 +1,5 @@
 <template>
-  <div class="home-wrapper">
+  <div class="text-wrapper">
     <p>
       I’m a software engineer from Berlin with a passion
       and good eye for design and usability.
@@ -13,18 +13,3 @@
     </p>
   </div>
 </template>
-
-<style scoped>
-  .home-wrapper {
-    max-width: initial;
-  }
-  p {
-    margin-bottom: 1rem;
-    color: var(--font-secondary);
-  }
-  @media (min-width: 1024px) {
-    .home-wrapper {
-      max-width: 50rem;
-    }
-  }
-</style>

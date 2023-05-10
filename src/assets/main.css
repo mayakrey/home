@@ -5,3 +5,17 @@
   padding: 0 4rem;
   font-weight: normal;
 }
+
+.text-wrapper {
+  max-width: initial;
+}
+
+p {
+  margin-bottom: 1rem;
+  color: var(--font-secondary);
+}
+@media (min-width: 1024px) {
+  .text-wrapper {
+    max-width: 50rem;
+  }
+}
