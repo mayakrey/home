@@ -1,4 +1,9 @@
+<script setup lang="ts">
+  import Home from '../components/Home.vue'
+</script>
+
 <template>
+  <Home />
   <div class="text-wrapper">
     <p>
       I’m a software engineer from Berlin with a passion

@@ -9,8 +9,8 @@
     </div>
     <div>
     <RouterLink to="/about">about</RouterLink>
-    <RouterLink to="/">experience</RouterLink>
-    <RouterLink to="/">work</RouterLink>
+    <RouterLink to="/experience">experience</RouterLink>
+    <RouterLink to="/work">work</RouterLink>
     <RouterLink to="/contact">contact</RouterLink>
   </div>
   </nav>

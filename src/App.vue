@@ -8,7 +8,6 @@
     <Navigation />
   </header>
   <div class="wrapper">
-    <Home />
     <div class="content">
       <RouterView />
     </div>

@@ -17,5 +17,6 @@ p {
 @media (min-width: 1024px) {
   .text-wrapper {
     max-width: 50rem;
+    margin-top: 5rem;
   }
 }
