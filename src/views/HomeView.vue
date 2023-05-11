@@ -4,7 +4,7 @@
 
 <template>
   <Home />
-  <div class="text-wrapper">
+  <div class="text-wrapper wrapper-line">
     <p>
       I’m a software engineer from Berlin with a passion
       and good eye for design and usability.
@@ -18,3 +18,15 @@
     </p>
   </div>
 </template>
+
+<style scoped>
+  .wrapper-line::before {
+    content: " ";
+    width: 0.1px;
+    background: var(--link-primary);
+    position: absolute;
+    top: 20px;
+    bottom: 20px;
+    left: -30px;
+  }
+</style>
