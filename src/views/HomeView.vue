@@ -1,9 +1,9 @@
 <script setup lang="ts">
-  import Home from '../components/Home.vue'
+  import Introduction from '../components/Introduction.vue'
 </script>
 
 <template>
-  <Home />
+  <Introduction />
   <div class="text-wrapper wrapper-line">
     <p>
       I’m a software engineer from Berlin with a passion
