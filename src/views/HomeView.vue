@@ -29,4 +29,8 @@
     bottom: 20px;
     left: -30px;
   }
+
+  .text-wrapper p {
+    margin-bottom: 1rem;
+  }
 </style>

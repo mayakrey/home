@@ -6,3 +6,9 @@
     <p>I’ll be happy to have a chat.</p>
   </div>
 </template>
+
+<style scoped>
+  .text-wrapper p {
+    margin-bottom: 1rem;
+  }
+</style>

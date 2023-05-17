@@ -7,11 +7,11 @@
 }
 
 .text-wrapper {
+  margin-top: 2rem;
   max-width: initial;
 }
 
 p {
-  margin-bottom: 1rem;
   color: var(--font-secondary);
 }
 
