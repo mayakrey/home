@@ -17,7 +17,7 @@
       </div>
     </div>
     <div class="hover">
-      <svg xmlns="http://www.w3.org/2000/svg" width="300" height="100" id="svg2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="300" height="100">
         <text x="20" y="20" fill="#da6ca9">2015 - 2022</text>
         <text x="112" y="20" fill="#b8b3b8">Software Engineer</text>
         <path d="M 100,100 v -70" stroke="#00B98C" fill="none" stroke-linecap="round" stroke-linejoin="round"
@@ -29,7 +29,7 @@
       </div>
     </div>
     <div class="hover">
-      <svg xmlns="http://www.w3.org/2000/svg" width="300" height="100" id="svg3">
+      <svg xmlns="http://www.w3.org/2000/svg" width="300" height="100">
         <text x="20" y="20" fill="#da6ca9">2022 - 2023</text>
         <text x="112" y="20" fill="#b8b3b8">Sabbatical</text>
         <path d="M 100,100 v -70" stroke="#00B98C" fill="none" stroke-linecap="round" stroke-linejoin="round"
@@ -123,11 +123,6 @@
       flex-direction: row;
       align-items: initial;
     }
-
-    /* 
-    .hover {
-      min-height: 1rem;
-    } */
 
     .description {
       font-size: 0.9rem;
