@@ -58,7 +58,7 @@
 
   .columns div {
     flex: 33.33%;
-    font-family: Montserrat, sans-serif;
+ /*    font-family: Montserrat, sans-serif; */
   }
 
   .description {
