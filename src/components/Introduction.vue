@@ -14,11 +14,13 @@ h1 {
 h2 {
   font-size: 2.5rem;
   font-weight: 700;
+  margin-bottom: 2rem;
 }
 
 @media (min-width: 1024px) {
     h2 {
       font-size: 4.5rem;
+      margin-bottom: 5rem;
     }
   }
 </style>
