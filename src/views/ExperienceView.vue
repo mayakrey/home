@@ -44,10 +44,6 @@
 </template>
 
 <style scoped>
-  .title {
-    margin-bottom: 2rem;
-  }
-
   .columns {
     display: flex;
     flex-direction: column;
@@ -58,7 +54,6 @@
 
   .columns div {
     flex: 33.33%;
- /*    font-family: Montserrat, sans-serif; */
   }
 
   .description {
@@ -108,10 +103,6 @@
   }
 
   @media (min-width: 1024px) {
-    .title {
-      margin-bottom: 6rem;
-    }
-
     .line {
       border: .5px solid var(--font-primary);
       width: 44rem;

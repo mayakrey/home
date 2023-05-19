@@ -16,7 +16,7 @@ p {
 }
 
 .title {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .title::after {
@@ -33,10 +33,9 @@ p {
 @media (min-width: 1024px) {
   .text-wrapper {
     max-width: 50rem;
-    margin-top: 5rem;
   }
 
   .title {
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
   }
 }
