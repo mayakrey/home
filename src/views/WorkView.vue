@@ -1,6 +1,6 @@
 <template>
   <h1 class="title">work</h1>
-  <div class="columns">
+  <div class="text-wrapper columns">
     <div>
       <p>I gained most of my experience working for ImmoScout24.</p>
       <p>These are a few of the projects I've had the pleasure to work on during that time:</p>
@@ -35,6 +35,13 @@
           <li>MySQL</li>
         </ul>
       </div>
+        <div>
+        <p>Search for developer projects</p>
+        <ul>
+          <li>Elasticsearch</li>
+          <li>ReactJS</li>
+        </ul>
+      </div>
       </div>
     </div>
   </div>
@@ -44,13 +51,14 @@
   .grid {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     gap: 3rem;
     margin-top: 3rem;
   }
 
   .grid div {
     flex: 1;
-    width: 100%;
+    width: 100%; 
     background-color: #0c2843;
     padding: 1rem;
     border-radius: 5px;
@@ -81,7 +89,7 @@
   }
 
   .grid div {
-    width: 0;
+    flex: 1 1 30%;
   }
 }
 </style>
