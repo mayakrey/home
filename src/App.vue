@@ -19,7 +19,7 @@
   }
 
   .wrapper {
-    margin-top: 2rem;
+    margin: 2rem 0;
   }
 
   @media (min-width: 1024px) {
