@@ -1,5 +1,6 @@
 <script setup lang="ts">
   import Navigation from './components/Navigation.vue'
+  import SocialMedia from './components/SocialMedia.vue'
 </script>
 
 <template>
@@ -11,6 +12,7 @@
       <RouterView />
     </div>
   </div>
+  <SocialMedia />
 </template>
 
 <style scoped>
