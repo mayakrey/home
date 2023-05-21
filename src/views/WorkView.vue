@@ -59,7 +59,7 @@
   .grid div {
     flex: 1;
     width: 100%; 
-    background-color: #0c2843;
+    background-color: var(--background-secondary);
     padding: 1rem;
     border-radius: 5px;
   }

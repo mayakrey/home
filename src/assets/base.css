@@ -1,5 +1,6 @@
 :root {
-  --background: #102e4c;
+  --background-primary: #102e4c;
+  --background-secondary: #0c2843;
   --font-primary: #36e8be;
   --font-secondary: #b8b3b8;
   --font-tertiary: #969ba0;
@@ -18,7 +19,7 @@
 body {
   min-height: 100vh;
   color: var(--font-primary);
-  background: var(--background);
+  background: var(--background-primary);
   line-height: 1.6;
   font-family: Montserrat, sans-serif;
   font-size: 15px;
