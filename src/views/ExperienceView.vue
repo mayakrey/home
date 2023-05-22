@@ -60,7 +60,7 @@
     color: var(--font-secondary);
     font-style: italic;
     text-align: center;
-    margin: 0 0 0 -5rem;
+    margin: 0 0 0 -1rem;
     opacity: 0;
     transition: 0.5s;
   }
@@ -84,6 +84,10 @@
     opacity: 0;
     animation: fadeIn 3s forwards;
     animation-delay: 1s;
+  }
+
+  svg {
+    max-width: 240px;
   }
 
   @keyframes drawLine {
