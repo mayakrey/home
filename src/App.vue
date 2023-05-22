@@ -67,7 +67,7 @@
       position: fixed;
       bottom: 0px;
       left: auto;
-      right: 50px;
+      right: 75px;
       text-align: center;
       display: block;
     }
