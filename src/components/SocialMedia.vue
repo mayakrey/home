@@ -1,5 +1,4 @@
 <template>
-  <div class="container">
     <a href="https://www.linkedin.com/in/mayakrey/" target="_blank" rel="noreferrer">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
         <path d="M4.745 11.997H9.5v15.27H4.745zm2.374-7.6c1.517 0 2.75 1.233 2.75 2.75S8.636 
@@ -28,30 +27,10 @@
          0.124-0.065l29.796-19.16v32.551C69.295,55.771,67.86,57.206,66.097,57.206z" 
          fill="#969ba0"/>
      </svg>
-     
     </a>
-  </div>
 </template>
 
 <style scoped>
-  .container {
-    width: 30px;
-    position: fixed;
-    bottom: 0px;
-    left: auto;
-    right: 50px;
-    text-align: center;
-  }
-  
-  .container:after {
-    content: "";
-    display: block;
-    width: 1px;
-    height: 90px;
-    margin: 0px auto;
-    background-color: var(--font-tertiary);
-  }
-
   a {
     display: block;
     margin-bottom: 1rem;
