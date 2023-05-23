@@ -57,7 +57,7 @@
   }
 
   .description {
-    color: var(--font-secondary);
+    color: var(--font-tertiary);
     font-style: italic;
     text-align: center;
     margin: 0 0 0 -1rem;
@@ -117,6 +117,10 @@
     .columns {
       flex-direction: row;
       align-items: initial;
+    }
+
+    svg {
+      max-width: 250px;
     }
 
     .description {
