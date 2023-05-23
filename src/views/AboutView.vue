@@ -46,8 +46,6 @@
     height: 300px;
     border-radius: 13px;
     z-index: 99;
-  /*   border: .3px solid var(--link-primary);
-    padding: 5px; */
   }
 
   @media (min-width: 1024px) {
