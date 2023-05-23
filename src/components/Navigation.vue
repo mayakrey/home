@@ -45,6 +45,8 @@
 
   .nav-links a.router-link-exact-active {
     color: var(--font-primary);
+    text-decoration: none;
+    cursor: initial;
   }
 
   .nav-links a.router-link-exact-active:hover {
@@ -53,13 +55,32 @@
 
   .nav-links a {
     display: inline-block;
-    padding: 0 1rem;
+    position: relative;
+    margin: 0 1rem;
     color: var(--link-primary);
     text-decoration: none;
   }
 
   .nav-links a:last-child {
-    padding: 0 0 0 1rem;
+    margin: 0 0 0 1rem;
+  }
+
+  .nav-links a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--font-primary);
+    transform-origin: bottom right;
+    transition: transform 0.4s ease-out;
+  }
+
+  .nav-links a:hover:not(a.router-link-exact-active):after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
   }
 
 
