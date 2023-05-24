@@ -6,7 +6,7 @@ import { fileURLToPath } from 'url'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
-  publicDir: '<root>/dist',
+  publicDir: 'dist',
   build: {
     rollupOptions: {
       input: {
