@@ -7,7 +7,7 @@ import { fileURLToPath } from 'url'
 export default defineConfig({
   plugins: [vue()],
   publicDir: false,
-  base: 'https://mayakrey.github.io/portfolio/',
+  base: '/portfolio/',
   build: {
     outDir: 'dist',
     rollupOptions: {
