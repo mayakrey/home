@@ -8,6 +8,7 @@ export default defineConfig({
   plugins: [vue()],
   publicDir: false,
   build: {
+    outDir: 'dist',
     rollupOptions: {
       input: {
         main: 'index.html',
