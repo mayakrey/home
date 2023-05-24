@@ -9,9 +9,9 @@ export default defineConfig({
   publicDir: '<root>/dist',
   build: {
     rollupOptions: {
-/*       input: {
+      input: {
         main: resolve(__dirname, 'src/main.ts'),
-      }, */
+      },
       output: {
         entryFileNames: '[name].min.js',
         chunkFileNames: '[name].min.js',
