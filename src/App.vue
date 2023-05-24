@@ -39,7 +39,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 140px 100px 0 100px;
+    margin: 50% 25% 0 25%;
   }
 
   .social-media-mobile::before {

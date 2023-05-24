@@ -23,6 +23,7 @@
     font-size: 2rem;
     transition: 0.3s ease-out;
     text-decoration: none;
+    padding: 0;
   }
 
   .home-btn:hover {
@@ -30,13 +31,13 @@
     text-shadow: 0 0 10px #36e8be, 0 0 20px #36e8be, 0 0 40px #36e8be;
   }
 
-  .home-btn a {
-    padding: 0;
+  .home-btn {
+    margin-top: -7px;
   }
 
   nav {
-    width: 100%;
-    margin: 1.2rem 0 2.8rem 0;
+    width: initial;
+    margin: 1.2rem -3rem 2.8rem -3rem;
     text-align: center;
     display: flex;
     justify-content: space-between;
@@ -84,7 +85,7 @@
   }
 
 
-  @media (min-width: 1024px) {
+  @media (min-width: 820px) {
     .home-btn {
       margin-left: 1rem;
     }
@@ -94,6 +95,7 @@
     }
 
     nav {
+      width: 100%;
       text-align: left;
       margin: 0 0 0 -1rem;
       font-size: 1rem;
