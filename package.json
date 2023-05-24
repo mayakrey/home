@@ -4,7 +4,7 @@
   "private": false,
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/dist/",
+    "build": "vite build",
     "preview": "vite preview",
     "test:unit": "vitest",
     "build-only": "run-p type-check build",
