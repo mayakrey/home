@@ -1,8 +1,8 @@
 # Portfolio
 
-This project is based on create-vue with Vue 3 in Vite.
+This project is based on create-vue with Vue 3 and Vite.
 
-Url: 
+Url: https://mayakrey.github.io/portfolio/
 
 ## Project Setup
 
