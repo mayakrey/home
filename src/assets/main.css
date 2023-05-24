@@ -11,6 +11,20 @@
   max-width: initial;
 }
 
+.text-wrapper p {
+  margin-bottom: 1rem;
+}
+
+.wrapper-line:before {
+  content: " ";
+  width: 0.1px;
+  background: var(--link-primary);
+  position: absolute;
+  top: 20%;
+  bottom: 20%;
+  left: -30px;
+}
+
 p {
   color: var(--font-secondary);
 }

@@ -1,7 +1,7 @@
 <template>
   <h1 class="title">about me</h1>
   <div class="columns">
-    <div>
+    <div class="wrapper-line">
       <p>G'day, my name is Maya and I enjoy writing JavaScript code.</p>
       <p>I spent 8 years at a German real estate company called ImmoScout24.
         I had the privelage to learn a lot during those years, starting as a working student doing frontend, then
@@ -23,6 +23,10 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
+  }
+
+  .columns p {
+    margin-bottom: 1rem;
   }
 
   .image-border {

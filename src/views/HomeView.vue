@@ -18,19 +18,3 @@
     </p>
   </div>
 </template>
-
-<style scoped>
-  .wrapper-line::before {
-    content: " ";
-    width: 0.1px;
-    background: var(--link-primary);
-    position: absolute;
-    top: 20px;
-    bottom: 20px;
-    left: -30px;
-  }
-
-  .text-wrapper p {
-    margin-bottom: 1rem;
-  }
-</style>
