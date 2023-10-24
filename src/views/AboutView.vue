@@ -8,7 +8,7 @@
         being hired as a full stack engineer writing infrastructure as code, creating frontends and backends.</p>
       <p>Working in different teams and with various technologies has helped me grow as a person and an engineer.
         While I enjoyed getting to know multiple languages, JavaScript has remained my passion since the start.
-        This includes mainly React and NodeJS.</p>
+        This includes mainly React and Node.</p>
     </div>
     <div>
       <div class="image-border">

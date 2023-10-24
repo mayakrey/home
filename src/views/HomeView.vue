@@ -14,7 +14,8 @@
       infrastructure as code, I decided to broaden my horizon by traveling around Latin America for a year.
     </p>
     <p>
-      Now I’m back and ready for new coding challenges. Preferably in the JavaScript world.
+      Now I’m back and ready for new coding challenges. Preferably in the JavaScript world. In the meantime I like to
+      stay up to date with private projects, learning about new technologies like flutter vue.
     </p>
   </div>
 </template>
