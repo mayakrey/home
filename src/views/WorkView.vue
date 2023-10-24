@@ -13,7 +13,7 @@
             <li>Data Pipelines</li>
             <li>ReactJS</li>
             <li>NodeJS</li>
-            <li>Charts</li>
+            <li>Charts with d3</li>
           </ul>
         </div>
         <div>
